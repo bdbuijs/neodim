@@ -4,7 +4,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-exec "source " . expand('<sfile>:p:h') . "/default-dark.vim"
+exec "source " . expand('<sfile>:p:h') . "/default-light.vim"
 
 let colors_name = "neodim"
 
