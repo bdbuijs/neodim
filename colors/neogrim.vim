@@ -1,6 +1,6 @@
-exec "source " . expand('<sfile>:p:h') . "/dim.vim"
+exec "source " . expand('<sfile>:p:h') . "/neodim.vim"
 
-let colors_name = "grim"
+let colors_name = "neogrim"
 
 if &background == "light"
   highlight Constant       ctermfg=8
