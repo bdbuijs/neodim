@@ -4,9 +4,9 @@ if exists("syntax_on")
   syntax reset
 endif
 
-exec "source " . expand('<sfile>:p:h') . "/default-light.vim"
+exec "source " . expand('<sfile>:p:h') . "/default-dark.vim"
 
-let colors_name = "dim"
+let colors_name = "neodim"
 
 " In diffs, added lines are green, changed lines are yellow, deleted lines are
 " red, and changed text (within a changed line) is bright yellow and bold.
