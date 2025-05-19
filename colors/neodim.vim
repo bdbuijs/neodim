@@ -114,8 +114,7 @@ highlight StatusLineNC  ctermfg=08 ctermbg=10 cterm=none
 highlight VertSplit     ctermfg=11 ctermbg=11 cterm=none
 highlight ColorColumn   ctermbg=10 cterm=none
 highlight CursorColumn  ctermbg=10 cterm=none
-highlight CursorLine    ctermbg=10 cterm=none
-highlight CursorLineNr  ctermfg=12 ctermbg=10
+highlight CursorLine    ctermbg=0 cterm=none
 highlight QuickFixLine  ctermbg=10 cterm=none
 highlight PMenu         ctermfg=07 ctermbg=10 cterm=none
 highlight PMenuSel      ctermfg=10 ctermbg=07
