@@ -107,9 +107,8 @@ highlight Title         ctermfg=04 cterm=none
 highlight Conceal       ctermfg=04 ctermbg=00
 highlight Cursor        ctermfg=00 ctermbg=07
 highlight NonText       ctermfg=08
-highlight LineNr        ctermfg=08 ctermbg=10
 highlight SignColumn    ctermfg=08 ctermbg=10
-highlight StatusLine    ctermfg=12 ctermbg=11 cterm=none
+" highlight StatusLine    ctermfg=12 ctermbg=11 cterm=none
 highlight StatusLineNC  ctermfg=08 ctermbg=10 cterm=none
 highlight VertSplit     ctermfg=11 ctermbg=11 cterm=none
 highlight ColorColumn   ctermbg=10 cterm=none
