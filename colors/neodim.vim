@@ -147,7 +147,7 @@ highlight StorageClass ctermfg=03 cterm=italic " Added italic as common for stor
 highlight String       ctermfg=02
 highlight Structure    ctermfg=05
 highlight Tag          ctermfg=03
-highlight Todo         ctermfg=03 ctermbg=10 cterm=bold " Added bold for visibility
+highlight Todo         ctermfg=03 ctermbg=1  cterm=bold " Also governs notes in Help files!
 highlight Type         ctermfg=03 cterm=none
 highlight Typedef      ctermfg=03
 
