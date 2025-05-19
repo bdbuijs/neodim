@@ -110,7 +110,7 @@ let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
 " highlight NonText       ctermfg=08
 " highlight SignColumn    ctermfg=08 ctermbg=10
 " highlight StatusLine    ctermfg=12 ctermbg=11 cterm=none
-" highlight StatusLineNC  ctermfg=08 ctermbg=10 cterm=none
+highlight StatusLineNC    ctermbg=8
 " highlight VertSplit     ctermfg=11 ctermbg=11 cterm=none
 " highlight ColorColumn   ctermbg=10 cterm=none
 " highlight CursorColumn  ctermbg=10 cterm=none
