@@ -77,49 +77,50 @@ let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
 
 " TODO: remove duplication / needless overriding of previous code
 " Highlighting below copied from colors/base16-gruvbox-dark-medium.vim
+" Anything non-syntax commented out (horrible green and yellow backgrounds)
 " Vim editor colors
 " highlight Normal        ctermfg=07 ctermbg=00
-highlight Bold          cterm=bold
-highlight Debug         ctermfg=01
-highlight Directory     ctermfg=04
-highlight Error         ctermfg=00 ctermbg=01
-highlight ErrorMsg      ctermfg=01 ctermbg=00
-highlight Exception     ctermfg=01
-highlight FoldColumn    ctermfg=06 ctermbg=10
-highlight Folded        ctermfg=08 ctermbg=10
-highlight IncSearch     ctermfg=10 ctermbg=09 cterm=none
-highlight Italic        cterm=none " Use cterm=NONE to ensure no italics if not desired
-highlight Macro         ctermfg=01
-highlight MatchParen    ctermbg=08
-highlight ModeMsg       ctermfg=02
-highlight MoreMsg       ctermfg=02
-highlight Question      ctermfg=04
-highlight Search        ctermfg=10 ctermbg=03
-highlight Substitute    ctermfg=10 ctermbg=03 cterm=none
-highlight SpecialKey    ctermfg=08
-highlight TooLong       ctermfg=01
-highlight Underlined    ctermfg=01 cterm=underline " Explicitly set underline
-highlight Visual        ctermbg=11
-highlight VisualNOS     ctermfg=01 cterm=underline " Explicitly set underline
-highlight WarningMsg    ctermfg=01
-highlight WildMenu      ctermfg=01 ctermbg=03 " Original had s:gui08, s:gui0A, so cterm08, cterm0A
-highlight Title         ctermfg=04 cterm=none
-highlight Conceal       ctermfg=04 ctermbg=00
-highlight Cursor        ctermfg=00 ctermbg=07
-highlight NonText       ctermfg=08
-highlight SignColumn    ctermfg=08 ctermbg=10
+" highlight Bold          cterm=bold
+" highlight Debug         ctermfg=01
+" highlight Directory     ctermfg=04
+" highlight Error         ctermfg=00 ctermbg=01
+" highlight ErrorMsg      ctermfg=01 ctermbg=00
+" highlight Exception     ctermfg=01
+" highlight FoldColumn    ctermfg=06 ctermbg=10
+" highlight Folded        ctermfg=08 ctermbg=10
+" highlight IncSearch     ctermfg=10 ctermbg=09 cterm=none
+" highlight Italic        cterm=none " Use cterm=NONE to ensure no italics if not desired
+" highlight Macro         ctermfg=01
+" highlight MatchParen    ctermbg=08
+" highlight ModeMsg       ctermfg=02
+" highlight MoreMsg       ctermfg=02
+" highlight Question      ctermfg=04
+" highlight Search        ctermfg=10 ctermbg=03
+" highlight Substitute    ctermfg=10 ctermbg=03 cterm=none
+" highlight SpecialKey    ctermfg=08
+" highlight TooLong       ctermfg=01
+" highlight Underlined    ctermfg=01 cterm=underline " Explicitly set underline
+" highlight Visual        ctermbg=11
+" highlight VisualNOS     ctermfg=01 cterm=underline " Explicitly set underline
+" highlight WarningMsg    ctermfg=01
+" highlight WildMenu      ctermfg=01 ctermbg=03 " Original had s:gui08, s:gui0A, so cterm08, cterm0A
+" highlight Title         ctermfg=04 cterm=none
+" highlight Conceal       ctermfg=04 ctermbg=00
+" highlight Cursor        ctermfg=00 ctermbg=07
+" highlight NonText       ctermfg=08
+" highlight SignColumn    ctermfg=08 ctermbg=10
 " highlight StatusLine    ctermfg=12 ctermbg=11 cterm=none
-highlight StatusLineNC  ctermfg=08 ctermbg=10 cterm=none
-highlight VertSplit     ctermfg=11 ctermbg=11 cterm=none
-highlight ColorColumn   ctermbg=10 cterm=none
-highlight CursorColumn  ctermbg=10 cterm=none
+" highlight StatusLineNC  ctermfg=08 ctermbg=10 cterm=none
+" highlight VertSplit     ctermfg=11 ctermbg=11 cterm=none
+" highlight ColorColumn   ctermbg=10 cterm=none
+" highlight CursorColumn  ctermbg=10 cterm=none
 highlight CursorLine    ctermbg=0 cterm=none
-highlight QuickFixLine  ctermbg=10 cterm=none
-highlight PMenu         ctermfg=07 ctermbg=10 cterm=none
-highlight PMenuSel      ctermfg=10 ctermbg=07
-highlight TabLine       ctermfg=08 ctermbg=10 cterm=none
-highlight TabLineFill   ctermfg=08 ctermbg=10 cterm=none
-highlight TabLineSel    ctermfg=02 ctermbg=10 cterm=none " Original used s:gui0B, s:gui01 -> cterm0B, cterm01
+" highlight QuickFixLine  ctermbg=10 cterm=none
+" highlight PMenu         ctermfg=07 ctermbg=10 cterm=none
+" highlight PMenuSel      ctermfg=10 ctermbg=07
+" highlight TabLine       ctermfg=08 ctermbg=10 cterm=none
+" highlight TabLineFill   ctermfg=08 ctermbg=10 cterm=none
+" highlight TabLineSel    ctermfg=02 ctermbg=10 cterm=none " Original used s:gui0B, s:gui01 -> cterm0B, cterm01
 
 " Standard syntax highlighting
 highlight Boolean      ctermfg=09
