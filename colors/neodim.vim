@@ -78,7 +78,7 @@ let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
 " TODO: remove duplication / needless overriding of previous code
 " Highlighting below copied from colors/base16-gruvbox-dark-medium.vim
 " Vim editor colors
-highlight Normal        ctermfg=07 ctermbg=00
+" highlight Normal        ctermfg=07 ctermbg=00
 highlight Bold          cterm=bold
 highlight Debug         ctermfg=01
 highlight Directory     ctermfg=04
